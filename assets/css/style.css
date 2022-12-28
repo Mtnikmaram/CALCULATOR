@@ -34,7 +34,7 @@ body {
     justify-content: center;
     transition: all .5s;
 }
-
+/* inside the style*/ 
 .container {
     position: relative;
     max-width: 450px;
