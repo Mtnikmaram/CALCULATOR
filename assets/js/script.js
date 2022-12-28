@@ -8,19 +8,19 @@ let getInput = (data) => {
     input += data.value;
     resultDiv.innerHTML = input;
 }
-
+//for delet option//
 let removeLastNumber = () => {
     input = input.slice(0, -1);
     resultDiv.innerHTML = input;
     equationDiv.innerHTML = "";
 }
-
+// when reset is click the amount is none//
 let reset = () => {
     input = "";
     resultDiv.innerHTML = input;
     equationDiv.innerHTML = ""
 }
-
+// for better look//
 let evalute = () => {
     if (input.length <= 0) {
         equationDiv.innerHTML = "";
