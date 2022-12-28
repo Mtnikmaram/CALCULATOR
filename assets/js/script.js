@@ -3,7 +3,7 @@ let equationDiv = document.getElementById('delete');
 
 let input = "";
 let result = "";
-
+// getting input//
 let getInput = (data) => {
     input += data.value;
     resultDiv.innerHTML = input;
