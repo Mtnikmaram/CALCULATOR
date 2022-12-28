@@ -49,7 +49,7 @@ body {
     background-color: var(--container-bg);
     border: 4px solid rgba(255, 255, 255, 0.125);
 }
-
+/* the delete section*/
 #delete {
     margin-top: 20px;
     padding-inline: 20px;
@@ -63,7 +63,7 @@ body {
     font-size: 25px;
     letter-spacing: 2px;
 }
-
+/* the result section*/
 #result {
     padding-inline: 20px;
     text-align: right;
@@ -72,7 +72,7 @@ body {
     font-size: 30px;
     outline: none;
 }
-
+/* the table section*/
 table {
     width: 100%;
 }
@@ -80,7 +80,7 @@ table {
 td {
     border: 2px solid var(--container-bg);
 }
-
+/* the botton section*/
 .btn {
     width: 100%;
     height: 100%;
@@ -104,7 +104,7 @@ td {
 .sign:hover {
     background: var(--btn-dark-hover);
 }
-
+/* the displaye section*/
 @media screen and (max-width:380px) {
     td {
         width: 85px;
